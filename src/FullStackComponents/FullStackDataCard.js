@@ -24,9 +24,7 @@ const FullStackDataCard = ({ fullStackDataData }) => {
 
                         <h5>
                           <b>
-                            <a href="#" className="btn ">
-                              {curElem.Readmore}
-                            </a>
+                            <p className="btn ">{curElem.Readmore}</p>
                           </b>
                         </h5>
                       </div>
