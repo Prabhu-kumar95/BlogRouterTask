@@ -1,4 +1,3 @@
-import React from "react";
 const AllData = [
   {
     id: 1,

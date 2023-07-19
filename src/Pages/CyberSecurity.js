@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import CyberSecurityData from "../CyberSecurityComponents/CyberSecurityData";
 import CyberSecurityDataCard from "../CyberSecurityComponents/CyberSecurityDataCard";
 const CyberSecurity = () => {
-  const [cyberSecurityDataDetails, setCyberSecurityDataDetails] =
-    useState(CyberSecurityData);
+  const [cyberSecurityDataDetails] = useState(CyberSecurityData);
   return (
     <div>
       <CyberSecurityDataCard

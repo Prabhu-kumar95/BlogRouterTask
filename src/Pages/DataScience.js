@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import DataScienceData from "../DataScienceComponents/DataScienceData";
 import DataScienceCard from "../DataScienceComponents/DataScienceCard";
 const DataScience = () => {
-  const [dataScienceDataData, setdataScienceDataData] =
-    useState(DataScienceData);
+  const [dataScienceDataData] = useState(DataScienceData);
   return (
     <div>
       <DataScienceCard dataScienceDataData={dataScienceDataData} />

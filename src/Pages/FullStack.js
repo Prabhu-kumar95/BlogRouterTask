@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FullStackData from "../FullStackComponents/FullStackData";
 import FullStackDataCard from "../FullStackComponents/FullStackDataCard";
 const FullStack = () => {
-  const [fullStackDataData, setfullStackDataData] = useState(FullStackData);
+  const [fullStackDataData] = useState(FullStackData);
   return (
     <div>
       <FullStackDataCard fullStackDataData={fullStackDataData} />
